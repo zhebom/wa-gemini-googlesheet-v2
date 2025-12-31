@@ -118,7 +118,7 @@ function convertSheetToJson() {
 
 function panggilGeminiRekap(senderMessage) {
  // return ContentService.createTextOutput("str");
- const apiKey = "AIzaSyB_uzq_2cALd7B2ZSZemNUcWH374RInjyk"; // Sebaiknya simpan di Project Settings > Script Properties
+ const apiKey = "UBAH API KEY GEMINI ANDA"; // Sebaiknya simpan di Project Settings > Script Properties
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
   
 
